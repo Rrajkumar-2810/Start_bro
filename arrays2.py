@@ -35,27 +35,29 @@ print('Extended array:',a)
 a.insert(0,9)
 print('Inserted Array:',a)
 
+#3
 b= array('i', [6,3,4,8,9,2,7])
 print('Popping the last element:',b.pop())
 print('Popping the first element:',b.pop(0)) #index position
 print('Removing a specific value:',b.remove(8)) #value 
 print(b)
 
-#3
+#4
 c = array('i')
 c=a+b
 print('Concatenated array:',c)
 
-#4
+#5
 print('Slicing array c:',c[0:4])
 print(c[0:-2])
 
-#5
+#6.1
 d = array('i',[8,4,6,3,1,5,2,7,0,9])
 for x in d:
     print((x), end =' ')
 print()
 
+#6.2
 e = array('i', [6,3,4,8,9,2,7])
 f=0
 while f<len(e):
