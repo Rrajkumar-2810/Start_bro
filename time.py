@@ -9,4 +9,3 @@ for x in range(time_up, 0, -1):
     print(f"{hours:02}:{minutes:02}:{seconds:02}")
     time.sleep(1)
 print("Time's up!")
-
