@@ -5,9 +5,11 @@ print(file.read())
 file = open("D:\\vn\\log1.txt",'r')
 print(file.read(5))
 file = open("D:\\vn\\log1.txt",'r')
+
 print(file.readline()) #line by line output
 print(file.readlines()) #Read lines separately
 print(file.readline(5)) #Read the paticular line only
+
 file.flush() #Saving the contents of the file
 file.close() #closing the file
 

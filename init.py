@@ -1,8 +1,8 @@
 #__init__() : this function is called automatically everytime the class is used to create an object
 
 class Parent:
-    def __init__(self, fnanme, fage):
-        self.name= fnanme
+    def __init__(self, fname, fage):
+        self.name= fname
         self.age= fage
 
     def view(self):
