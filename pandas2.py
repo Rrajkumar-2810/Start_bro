@@ -23,7 +23,7 @@ print(df.columns) # Prints all the columns name
 print(df['event'])
 print("Event with date:\n",df[['event','day']])
 print("Event with date and temperature:\n",df[['event','day','temperature']])
-print("Temperature greater than 32:\n",df[df.temperature >= 32]) #df[df['temperature]]
+print("Temperature greater than 32:\n",df[df.temperature >= 32]) #df[df['temperature']]
 print("Max Temperature record:\n",df[df.temperature == df['temperature'].max()])
 print("The day on which temperature was maximum:\n", df[['day','temperature']][df.temperature == df['temperature'].max()])
 
@@ -38,4 +38,3 @@ print(df)
 print(df.loc['Snow'])
 print("Resetting index:", df.reset_index(inplace=True)) #Resetting index back to original
 print(df)
-

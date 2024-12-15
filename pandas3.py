@@ -1,4 +1,5 @@
 import pandas as pd
+#Handling null values and creating new modified files from the original ones 
 
 df = pd.read_csv("D:/PYVSCODE/Start_Bro/stock_data.csv") 
 print(df)
